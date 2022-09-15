@@ -13,3 +13,11 @@ let lastName: String = "Solovyov"
 let fullName: String = firstName + " " + lastName
 let myDetails: String = "Hello, my name is \(fullName)"
 print(myDetails)
+
+// tuples
+let dateAndTemp: (Int, Int, Int, Double) = (month: 9, day: 15, year: 2022, temperature: 12.3)
+let (_, day, _, average) = dateAndTemp
+print(day)
+print(average)
+
+
