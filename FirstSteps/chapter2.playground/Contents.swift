@@ -20,4 +20,25 @@ let (_, day, _, average) = dateAndTemp
 print(day)
 print(average)
 
+// exercises
+let coordinates: (Double, Double) = (x: 2, y: 3)
+
+var name = "Matt"
+name += " Galloway"
+print(name)
+
+let tuple = (100, 1.5, 10)
+let value = tuple.1
+
+let number = 10
+let multiplier = 5
+let summary = "\(number) multiplied by \(multiplier) equals \(number * multiplier)"
+print(summary)
+
+let a = 4
+let b: Int32 = 100
+let c: UInt8 = 12
+//let sum = (a + b) - c
+//print(sum)
+
 
