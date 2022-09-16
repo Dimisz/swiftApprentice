@@ -1,6 +1,7 @@
 import UIKit
 
 // booleans mini-exercises
+/*
 let myAge: Int = 35
 let isTeenager: Bool = (myAge >= 13) && (myAge <= 19)
 print(isTeenager)
@@ -17,4 +18,16 @@ print("Is author (\(author)) the same person as reader (\(reader)) : \(authorIsR
 
 let authorBeforeReader: Bool = author < reader
 print("Does author come before reader: \(authorBeforeReader)")
+*/
 
+// if-else
+let myAge: Int = 35
+if (myAge >= 13) && (myAge <= 19){
+    print("Teenager")
+}
+else {
+    print("Not a teenager")
+}
+
+let myAnswer: String = (myAge >= 13) && (myAge <= 19) ? "Teenager" : "Not a teenager"
+print(myAnswer)
